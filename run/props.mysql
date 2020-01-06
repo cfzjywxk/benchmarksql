@@ -4,14 +4,14 @@ conn=jdbc:mysql://localhost:4000/tpcc?useSSL=false&useServerPrepStmts=true&useCo
 user=root
 password=
 
-warehouses=1
+warehouses=2
 loadWorkers=4
 
-terminals=1
+terminals=8
 //To run specified transactions per terminal- runMins must equal zero
 runTxnsPerTerminal=0
 //To run for specified minutes- runTxnsPerTerminal must equal zero
-runMins=10
+runMins=1
 //Number of total transactions per minute
 limitTxnsPerMin=0
 
